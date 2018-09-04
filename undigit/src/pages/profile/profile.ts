@@ -16,8 +16,7 @@ import 'rxjs/add/operator/map';
   templateUrl: 'profile.html',
 })
 export class ProfilePage {
-  //id:any = this.navParams.get('id');
-  id:any = 1;
+  id:any = this.navParams.get('id');
   profiling:Object[] = [];
   constructor(public navCtrl: NavController, public navParams: NavParams, public http:Http) {
   }
@@ -39,7 +38,7 @@ export class ProfilePage {
       
       
       this.profiling = res.profile;
-      console.log(this.profiling);
+      //console.log(this.profiling);
       //this.profile = res.profile;
       //console.log(typeof(this.profiles));
 
