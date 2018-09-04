@@ -1,0 +1,52 @@
+<!--
+  Generated template for the ProfilePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+
+
+<ion-content class="outercontainer">
+<ion-grid>
+  <div class="innercontainer">
+    <ion-row>
+      <ion-col col-3 class="imagecontainer">
+        <img src="../../assets/imgs/nouser.png" class="img" img-responsive> 
+        </ion-col>
+
+        <ion-col col-4 class="naming">
+          <p><span class="username">{{profiling.userName}}</span><br>
+          <span class="name">{{profiling.name}}</span></p>  
+        </ion-col>
+
+        <!--<ion-col col-4 class="dob">
+          Date Of Birth<br>
+          <span>{{profiling.DOB | date:'dd/MM/yyyy'}}</span>
+        </ion-col>-->
+
+        <ion-col col-4 class="address">
+          <p text-wrap>{{profiling.address}}</p>  
+        </ion-col>
+    </ion-row>
+
+    <ion-row class="contactUser">
+      <ion-col col-4 class="padding-left">
+        <p><span class="phoneHeader">Phone Number</span> <span class="phone">{{profiling.phone}}</span> </p> 
+      </ion-col>
+      <div class="horizontal"></div> 
+
+      <ion-col col-4 wrap class="padding-left">
+        <p> <span class="phoneHeader">Email Address</span><br><span class="phone">{{profiling.email}}</span> </p>
+      </ion-col>
+
+      <div class="horizontal"></div>
+
+      <ion-col col-3 class="padding-left">
+        <p> <span class="phoneHeader">Date Of Birth</span><br><span class="phone">{{profiling.DOB|date:'dd/MM/yyy'}}</span></p> 
+      </ion-col>
+    </ion-row>
+
+  </div>
+</ion-grid>
+</ion-content>

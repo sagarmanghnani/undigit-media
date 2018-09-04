@@ -1,0 +1,84 @@
+
+
+<ion-content class="outsidecontainer">
+  <ion-grid>
+    <div class="insidecontainer">
+      <h1>Sign Up today, it's free</h1> 
+      <ion-list no-lines>
+        <form [formGroup] = "user">
+          <ion-row>
+            <ion-col col-6 >
+              
+                <ion-item class="adjust-left">
+                    <ion-label floating>Name</ion-label>
+                    <ion-input type="text" formControlName = "name"></ion-input>
+                  </ion-item>
+            </ion-col> 
+            <ion-col col-6>
+                <ion-item class="adjust-right">
+                    <ion-label floating>Userame</ion-label>
+                    <ion-input type="text" formControlName = "username"></ion-input>
+                  </ion-item>
+
+            </ion-col>  
+                 
+          </ion-row>
+           
+          <ion-row>
+            <ion-col col-6>
+                <ion-item class="adjust-left">
+                    <ion-label floating>Password</ion-label>
+                    <ion-input type="password" formControlName = "password"></ion-input>
+                  </ion-item>
+            </ion-col>
+
+            <ion-col col-6>
+                <ion-item class="adjust-right">
+                    <ion-label floating>Email</ion-label>
+                    <ion-input type="email" formControlName = "email"></ion-input>
+                  </ion-item>    
+            </ion-col>
+           
+            
+          </ion-row>  
+             
+
+          <ion-row>
+
+            <ion-col col-6>
+                <ion-item class="adjust-left">
+                    <ion-label floating>Phone</ion-label>
+                    <ion-input type="number" formControlName = "phone"></ion-input>
+                  </ion-item>
+            </ion-col>
+
+            <ion-col col-6>
+                <ion-item class="adjust-right date">
+                    <ion-label floating></ion-label>
+                    <ion-input type="date" formControlName = "dob"></ion-input>
+                  </ion-item>
+            </ion-col>
+          </ion-row>    
+            
+          <ion-row>
+              <ion-item class="address" >
+                  <ion-label floating>Address</ion-label>
+                  <ion-input type="text" formControlName = "address"></ion-input>
+                </ion-item>
+          </ion-row>
+              
+        </form>
+      </ion-list>
+     <ion-row>
+       <ion-item no-lines class="terms">
+         <ion-label class="termsLabel">By Signing up you agree to Undigit <strong>terms and condition</strong></ion-label>
+         <ion-checkbox checked="isChecked" ></ion-checkbox>
+       </ion-item>
+     </ion-row>
+
+     <button ion-button block (click) = "signUp()" class="buttons">Register Now</button>
+
+    </div>  
+  </ion-grid>
+
+</ion-content>

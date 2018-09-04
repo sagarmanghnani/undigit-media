@@ -1,0 +1,63 @@
+page-home {
+    .row{
+        padding-left: 4%;
+    padding-right: 4%;
+    }
+    .outsidecontainer{
+        background-color: #40477b;
+    }
+
+    .insidecontainer{
+        background-color: white;
+        width: 60%; 
+        display: flex;
+        margin: auto;
+        flex-direction: column; 
+        margin-top:3%;
+        max-height: 40%;
+    }
+    
+    h1{
+        text-align: center;
+        font-size: 3rem;
+        padding-top: 3%;
+    }
+    .date{
+        color: #999999;
+        padding-top: 4.5%;
+        
+    }
+
+    .address{
+        width: 100%;
+        padding-left: 5.5%;
+    }
+
+    .adjust-left{
+        width: 90%;
+        padding-left: 10%;
+    }
+    .adjust-right{
+        width: 90%;
+        padding-right: 10%;
+    }
+
+    .terms{
+        margin-top: 3%;
+        padding-left: 17%;
+    }
+
+    .item.item-md .checkbox-md{
+        margin-right: 2%;
+    }
+    
+
+    .buttons{
+        width: 40%;
+        text-align: center;
+        margin: auto;
+        margin-top: 4%;
+        margin-bottom: 5%;
+    }
+    
+}

@@ -1,0 +1,52 @@
+page-login {
+    form{
+        padding-bottom: 8%;
+    }
+    .outercontainer{
+        background-color: #f3f4f8;
+    }
+
+    .innercontainer{
+        margin: auto;
+        width: 40%;
+        background-color: white;
+        margin-top: 13%;
+        box-shadow: 0px 1px 10px 4px #e2e2e2;
+
+    }
+    .imageContainer{
+        display: flex;
+        margin:auto;
+        width: 20%;
+        //height: 0%;
+        height: auto;
+        top: 20%;
+        position: relative;
+    }
+
+    /*.button{
+        //display: flex;
+        margin-top: 2%;
+        width: 40%;
+        position: relative;
+        left: 30%;
+        background-color: #40477b;
+    }*/
+
+    .btn{
+        display: flex;
+        position: relative;
+        width: 15%;
+        background-color: #40477b;
+        margin-top: 3%;
+        left:40%;
+    }
+
+   .form-item{
+        width: 90%;
+    }
+
+    
+    
+
+}

@@ -1,0 +1,81 @@
+page-profile {
+    .outercontainer{
+        
+    }
+
+    .innercontainer{
+        background-color: white;
+        width: 60%; 
+        display: flex;
+        margin: auto;
+        flex-direction: column; 
+        margin-top:14%;
+        max-height: 40%;
+        box-shadow: 0px 1px 10px 4px #e2e2e2;
+    }
+
+    ion-col{
+        border: 1px, solid;
+    }
+
+   .img{
+       border: 1px solid;
+       border-radius: 50%;
+       width: 60%;
+       height: auto; 
+   }  
+   .imagecontainer{
+       //border: 1px solid;
+       padding-left: 3%;
+   }
+
+   .naming{
+    margin-left: 2%;
+    .username{
+        font-size: 3rem;
+        color: #40477b;
+    }
+ 
+    .name{
+        font-size: 2em;
+        color: #999999;
+    }
+   }
+
+   .dob{
+       font-size: 2rem;
+       color: #999999;
+   }
+
+   .address{
+    display: flex;
+    font-size: 2rem;
+    color: #999999;
+    text-align: center;
+    margin: auto;
+   }
+
+   .contactUser{
+       background-color: #40477b;
+       color: white;
+       display: flex;
+       padding-top: 2%;
+       padding-bottom:2%;
+   }
+
+   .phoneHeader{
+       font-size: 1.7rem;
+   }
+   .phone{
+       font-size: 2rem;
+   }
+
+   .horizontal{
+       background-color: white;
+       border: 1px solid;
+   }
+   .padding-left{
+       padding-left:2%;
+   }
+   
+}
